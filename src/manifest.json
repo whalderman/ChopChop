@@ -15,7 +15,7 @@
 	"background": {
 		"service_worker": "sw.js"
 	},
-	"permissions": ["scripting", "activeTab"],
+	"permissions": ["scripting"],
 	"action": {},
 	"host_permissions": ["*://*/*"]
 }
