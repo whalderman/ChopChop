@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "build": "node scripts/esbuild.mjs",
+    "zip": "node scripts/zipDist.mjs",
+    "buildzip": "pnpm run build && pnpm run zip"
+  },
+  "keywords": [],
+  "author": "Warren Halderman",
+  "license": "MIT",
+  "devDependencies": {
+    "archiver": "^7.0.1",
+    "esbuild": "^0.21.5"
+  },
+  "prettier": {
+    "useTabs": true
+  },
+  "dependencies": {
+    "chrome-types": "^0.1.368"
+  }
+}
