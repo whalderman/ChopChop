@@ -3,8 +3,8 @@
 	"name": "ChopChop",
 	"short_name": "ChopChop",
 	"description": "Make those lengthy web pages load faster. CHOP CHOP!",
-	"version": "0.1.0",
-	"version_name": "0.1.0",
+	"version": "0.1.1",
+	"version_name": "金木犀",
 	"icons": {
 		"16": "assets/icon.png",
 		"32": "assets/icon.png",

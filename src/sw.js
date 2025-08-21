@@ -26,7 +26,6 @@ const chopChopContentScripts = [
 			"*://*.إختبار:*/*",
 			"*://*.テスト:*/*",
 		],
-		world: "MAIN",
 	},
 ];
 
