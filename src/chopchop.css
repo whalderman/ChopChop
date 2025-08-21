@@ -1,10 +1,10 @@
-body :has(
+body :where(:has(
 	/* anything that has at least 10 children */
 	> :nth-child(10)
-	/* lazily render anything beyond the first 5 elements by default */
-) > :nth-child(n + 5) {
+	/* lazily render the children */
+)) > :where(*) {
 	--🪚--: "ChopChop!";
 	content-visibility: auto;
 	/* this fallback size may need to be tweaked */
-	contain-intrinsic-block-size: auto 150px;
+	contain-intrinsic-block-size: auto 200px;
 }
